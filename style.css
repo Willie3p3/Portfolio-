@@ -10,14 +10,14 @@ header {
 }
 
 footer {
-    background-color: #778899;
+    background-color: #778899;  /* the box that sits behind the information in the footer will have a background color different than the information itself */
     margin: 200px 0 0 0;
     padding: 20px 0;
     height: auto;
 }
 
 h1 {
-  color: white;
+  color: white;  /* the color of the text will be a color to better be visible, sitting above the background in the header */
   padding: 60px 0 20px 20px;
   margin: 0;
   font-family: Ariel, serif;
@@ -51,11 +51,11 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 image {
-  height: auto;
+  height: auto;  /* the image is auto adjusted to best fit into the screen display based on device used */
 }
 a:hover{
   color: red
-}
+}   /* when hovering over the links, they turn red */
 a:visited{
   color: green
-}
+}  /*when the link is clicked, it turns green */
